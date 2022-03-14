@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pertemuan5_latihan</string>
+    <string name="corp_name">SHUEISHA CO.</string>
+    <string name="email_hint">e-Mail...</string>
+    <string name="pass_hint">password...</string>
+    <string name="login_word">login</string>
+    <string name="signup_word">sign up</string>
+    <string name="register_word">Register now!</string>
+</resources>
