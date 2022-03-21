@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pertemuan6_71180266</string>
+    <string name="fragA">"Ini Fragment A"</string>
+    <string name="fragB">"Ini Fragment B"</string>
+    <string name="fragC">"Ini Fragment C"</string>
+    <string name="nexPageIchi">tO Page 1</string>
+    <string name="nexPageNi">tO Page 2</string>
+    <string name="nexPageSan">tO Page 3</string>
+</resources>
