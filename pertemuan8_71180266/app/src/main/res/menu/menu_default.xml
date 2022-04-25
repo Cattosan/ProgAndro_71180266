@@ -11,4 +11,9 @@
         android:icon="@mipmap/settings_foreground"
         android:title="Settings"
         app:showAsAction="always"/>
+
+    <item android:id="@+id/messages"
+        android:icon="@mipmap/messages_foreground"
+        android:title="Messages"
+        app:showAsAction="always"/>
 </menu>

@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         val viewPager = findViewById<ViewPager2>(R.id.pager)
-        val listFragment: ArrayList<Fragment> = arrayListOf(frag_profile(), frag_settings())
+        val listFragment: ArrayList<Fragment> = arrayListOf(frag_profile(), frag_settings(), frag_messages())
         val pagerAdapter = PagerAdapter(this, listFragment)
         viewPager.adapter = pagerAdapter
     }
@@ -47,6 +47,12 @@ class MainActivity : AppCompatActivity() {
             //Toast.makeText(this,frag_settings().id.toString(),Toast.LENGTH_LONG).show()
             val viewPage2 = findViewById<ViewPager2>(R.id.pager)
             viewPage2.setCurrentItem(1, true)
+            true
+        }
+        R.id.messages -> {
+            //Toast.makeText(this,frag_settings().id.toString(),Toast.LENGTH_LONG).show()
+            val viewPage2 = findViewById<ViewPager2>(R.id.pager)
+            viewPage2.setCurrentItem(2, true)
             true
         }
         else -> {
