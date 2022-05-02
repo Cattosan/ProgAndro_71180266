@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">pertemuan9_71180266</string>
+    <string name="baccdesc">background image</string>
+    <string name="welkam">Welcome ヾ(^▽^*)))</string>
+    <string name="fpass">FORGOT PASSWORD?</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="hintusername">Username</string>
+    <string name="hintpassword">Password</string>
+    <string name="orApp">OR</string>
+    <string name="langchoice">Languages:</string>
+    <string name="fontchoice">Fonts:</string>
+    <string name="helloexample">Hello World!</string>
+
+    <!-- Fonts. -->
+    <array name="font">
+        <item>Roboto Bold</item>
+        <item>Roboto Reguler</item>
+        <item>Standard Block</item>
+    </array>
+
+    <!-- Languages. -->
+    <array name="lang">
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>北方话</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Melayu</item>
+        <item>English International</item>
+        <item>English UK</item>
+        <item>English US</item>
+        <item>French</item>
+        <item>Spanish</item>
+    </array>
+
+    <!-- Bawah ini adalah bagian fontawesome. -->
+    <string name="email">&#xf0e0;</string>
+</resources>
